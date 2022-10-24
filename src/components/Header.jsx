@@ -5,7 +5,7 @@ import { HiOutlineLocationMarker } from "react-icons/hi";
 
 const Header = () => {
   const [data, setData] = useState(null);
-
+  // get api
   const getApi = () => {
     axios
       .get("https://randomuser.me/api/")
